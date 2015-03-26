@@ -6,11 +6,17 @@
 <body>
 
 <br/>
-<a href="index.html"> <h2> Home </h2></a>
+<a href="index.php"> <h2> Home </h2></a>
 
-<center> <img src="tecnologias_web.png"> </center>
+<center> <img src="imagens/tecnologias_web.png"> </center>
 
 <center><p>Algumas tecnologias que utilizamos.</p></center>
+
+<?php
+
+include_once('menuLateral.php');
+
+?>
 
 
 

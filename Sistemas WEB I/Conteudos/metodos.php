@@ -6,16 +6,20 @@
 <body>
 
 <br/>
-<a href="index.html"> <h2> Home </h2></a>
+<a href="index.php"> <h2> Home </h2></a>
 <br/>
-<center> <img src="metodos.jpg"> </center>
+<center> <img src="imagens/metodos.jpg"> </center>
 <center><p> Segue abaixo uma lista com alguns métodos que serão ensinamos nesse site.</p></center>
 <br/>
 <br/>
-<ul>
-<li>Design</li>
-<li>Desenvolvimento e implantação</li>
-</ul>
+
+<center>Design</center>
+<center>Desenvolvimento e implantação</center>
+<?php
+
+include_once('menuLateral.php');
+
+?>
 
 </body>
 </html>

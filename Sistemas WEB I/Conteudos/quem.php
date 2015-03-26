@@ -6,11 +6,16 @@
 <body>
 
 <br/>
-<a href="index.html"> <h2> Home </h2></a>
+<a href="index.php"> <h2> Home </h2></a>
 <br/>
 <br/>
-<center> <img src="equipe.jpg"> </center>
+<center> <img src="imagens/equipe.jpg"> </center>
 <center><p>Somos uma Equipe de profissionais da Tecnologia da Informação com foco em Web.</p></center>
+<?php
+
+include_once('menuLateral.php');
+
+?>
 
 </body>
 </html>

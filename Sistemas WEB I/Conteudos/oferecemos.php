@@ -6,10 +6,10 @@
 <body>
 
 <br/>
-<a href="index.html"> <h2> Home </h2></a>
+<a href="index.php"> <h2> Home </h2></a>
 <br/>
 <br/>
-<center> <img src="servicos.jpg"> </center>
+<center> <img src="imagens/servicos.jpg"> </center>
 
 <center><p> Oferecemos o melhor conteúdo sobre Web do mercado, com o auxilio dos nossos profissionais você se tornará um ótimo desenvolvedor web. </p></center>
 
@@ -33,6 +33,12 @@
   </tr>
   
 </table></center>
+
+<?php
+
+include_once('menuLateral.php');
+
+?>
 
 </body>
 </html>
